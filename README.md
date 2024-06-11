@@ -1,4 +1,4 @@
-# Kubernetes-Zero-to-Hero
+![image](https://github.com/ZaMarouane/Kubernetes-Zero-to-Hero-A/assets/165991211/1a81a820-7488-4da1-9571-c3e1480692c1)# Kubernetes-Zero-to-Hero
 Creating this repo with an intent to make Kubernetes easy for begineers. This is a work-in-progress repo.
 
 ## Kubernetes Installation Using KOPS on EC2
@@ -90,4 +90,9 @@ After a few mins, run the below command to verify the cluster installation.
 ```
 kops validate cluster demok8scluster.k8s.local
 ```
+
+how to configure a specific domain name in Route53
+```aws route53 create-hosted-zone --name dev.example.com --caller reference 1```
+
+
 
